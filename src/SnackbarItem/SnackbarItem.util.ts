@@ -25,7 +25,7 @@ export const getTransitionDirection = (anchorOrigin: Snack['anchorOrigin']): Dir
 export const omitNonMuiKeys: (classes: { wrappedRoot: string } & SnackbarProps['classes']) => SnackbarProps['classes'] = (classes) => {
     const snackbarMuiClasses = Object.keys(classes)
         // @ts-ignore
-        .filter(key => allClasses.mui[key] !== undefined).reduce((obj, key) => ({ ...obj, [key]: classes[key] }), {});
+        .filter((key) => allClasses.mui[key] !== undefined).reduce((obj, key) => ({ ...obj, [key]: classes[key] }), {});
 
     return {
         ...snackbarMuiClasses,
@@ -36,7 +36,7 @@ export const omitNonMuiKeys: (classes: { wrappedRoot: string } & SnackbarProps['
 /**
  * Omit all class keys except what we need for collapse component
  */
-export const omitNonCollapseKeys = (classes: SnackbarItemProps['classes'], dense: SnackbarItemProps['dense']): { container: string; wrapper: string } => ({
-    container: classes.collapseContainer,
+export const omitNonCollapseKeys = (classes: SnackbarItemProps['classes'], dense: SnackbarItemProps['dense']): { root: string; wrapper: string } => ({
+    root: classes.collapseContainer,
     wrapper: clsx(classes.collapseWrapper, { [classes.collapseWrapperDense]: dense }),
 });

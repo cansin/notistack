@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
@@ -23,7 +23,7 @@ const App = () => {
             options: {
                 key: new Date().getTime() + Math.random(),
                 variant: 'warning',
-                action: key => (
+                action: (key) => (
                     <Button onClick={() => closeSnackbar(key)}>dismiss me</Button>
                 ),
             },
@@ -35,13 +35,13 @@ const App = () => {
     };
 
     return (
-        <Fragment>
+        <>
             <Notifier />
             <Typography variant="h4" gutterBottom>Notistack redux example</Typography>
 
             <Button variant="contained" onClick={handleClick}>Display snackbar</Button>
             <Button variant="contained" onClick={handleDimissAll}>Dismiss all snackbars</Button>
-        </Fragment>
+        </>
     );
 };
 

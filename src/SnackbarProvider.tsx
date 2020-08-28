@@ -10,7 +10,6 @@ import defaultIconVariants from './utils/defaultIconVariants';
 import { SnackbarProviderProps, ContainerClassKey, SnackbarKey, SnackbarMessage, OptionsObject, RequiredBy, ProviderContext, TransitionHandlerProps } from '.';
 import createChainedFunction from './utils/createChainedFunction';
 
-
 type Reducer = (state: State) => State;
 type SnacksByPosition = { [key: string]: Snack[] };
 
@@ -127,7 +126,7 @@ class SnackbarProvider extends Component<SnackbarProviderProps, State> {
      *         snackbar is made. Once it entered the screen, it will be immediately dismissed.
      */
     handleDismissOldest: Reducer = (state) => {
-        if (state.snacks.some(item => !item.open || item.requestClose)) {
+        if (state.snacks.some((item) => !item.open || item.requestClose)) {
             return state;
         }
 
@@ -178,7 +177,7 @@ class SnackbarProvider extends Component<SnackbarProviderProps, State> {
         }
 
         this.setState(({ snacks }) => ({
-            snacks: snacks.map(item => (
+            snacks: snacks.map((item) => (
                 item.key === key ? { ...item, entered: true } : { ...item }
             )),
         }));
@@ -205,7 +204,7 @@ class SnackbarProvider extends Component<SnackbarProviderProps, State> {
                     ? { ...item, open: false }
                     : { ...item, requestClose: true };
             }),
-            queue: queue.filter(item => item.key !== key), // eslint-disable-line react/no-unused-state
+            queue: queue.filter((item) => item.key !== key), // eslint-disable-line react/no-unused-state
         }));
     };
 
@@ -214,7 +213,7 @@ class SnackbarProvider extends Component<SnackbarProviderProps, State> {
      */
     closeSnackbar: ProviderContext['closeSnackbar'] = (key) => {
         // call individual snackbar onClose callback passed through options parameter
-        const toBeClosed = this.state.snacks.find(item => item.key === key);
+        const toBeClosed = this.state.snacks.find((item) => item.key === key);
         if (key && toBeClosed && toBeClosed.onClose) {
             toBeClosed.onClose(null, REASONS.INSTRUCTED, key);
         }
@@ -239,7 +238,7 @@ class SnackbarProvider extends Component<SnackbarProviderProps, State> {
         this.setState((state) => {
             const newState = this.processQueue({
                 ...state,
-                snacks: state.snacks.filter(item => item.key !== key),
+                snacks: state.snacks.filter((item) => item.key !== key),
             });
 
             if (newState.queue.length === 0) {
@@ -291,7 +290,7 @@ class SnackbarProvider extends Component<SnackbarProviderProps, State> {
                         classes[`containerAnchorOrigin${origin}` as ContainerClassKey],
                     )}
                 >
-                    {snacks.map(snack => (
+                    {snacks.map((snack) => (
                         <SnackbarItem
                             {...props}
                             key={snack.key}

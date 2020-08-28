@@ -80,8 +80,7 @@ const styles = (theme: Theme) => {
             marginBottom: SNACKBAR_INDENTS.snackbar.dense,
         },
     });
-}
-
+};
 
 type RemovedProps =
     /** the one received from Provider is processed and passed to snack prop */
@@ -90,7 +89,6 @@ type RemovedProps =
     | 'anchorOrigin'
     /** the one recevied from enqueueSnackbar is processed in provider, therefore shouldn't be passed to SnackbarItem */
     | 'preventDuplicate'
-
 
 export interface SnackbarItemProps extends WithStyles<typeof styles>, RequiredBy<Omit<SharedProps, RemovedProps>, 'onEntered' | 'onExited' | 'onClose'> {
     snack: Snack;
@@ -123,12 +121,11 @@ const SnackbarItem: React.FC<SnackbarItemProps> = ({ classes, ...props }) => {
         }, 125);
     };
 
-    const callbacks: { [key in keyof TransitionHandlerProps]?: any } =
-        ['onEnter', 'onEntering', 'onEntered', 'onExit', 'onExiting', 'onExited'].reduce((acc, cbName) => ({
-            ...acc,
-            // @ts-ignore
-            [cbName]: createChainedFunction([props.snack[cbName], props[cbName]], props.snack.key),
-        }), {});
+    const callbacks: { [key in keyof TransitionHandlerProps]?: any } = ['onEnter', 'onEntering', 'onEntered', 'onExit', 'onExiting', 'onExited'].reduce((acc, cbName) => ({
+        ...acc,
+        // @ts-ignore
+        [cbName]: createChainedFunction([props.snack[cbName], props[cbName]], props.snack.key),
+    }), {});
 
     const {
         action,
@@ -172,6 +169,13 @@ const SnackbarItem: React.FC<SnackbarItemProps> = ({ classes, ...props }) => {
         ...otherTransitionProps,
         ...singleTransitionProps,
         onExited: handleExitedScreen,
+        onExit: callbacks.onExit,
+        onExiting: callbacks.onExiting,
+        onEnter: callbacks.onEnter,
+        onEntering: callbacks.onEntering,
+        // order matters. first callbacks.onEntered to set entered: true,
+        // then handleEntered to check if there's a request for closing
+        onEntered: createChainedFunction([callbacks.onEntered, handleEntered]),
     };
 
     let finalAction = singleAction || action;
@@ -193,8 +197,8 @@ const SnackbarItem: React.FC<SnackbarItemProps> = ({ classes, ...props }) => {
             classes={omitNonCollapseKeys(classes, dense)}
             onExited={callbacks.onExited}
         >
+            {/* @ts-ignore */}
             <Snackbar
-                // @ts-ignore
                 TransitionComponent={TransitionComponent}
                 {...other}
                 {...singleSnackProps}
@@ -203,13 +207,6 @@ const SnackbarItem: React.FC<SnackbarItemProps> = ({ classes, ...props }) => {
                 TransitionProps={transitionProps}
                 classes={omitNonMuiKeys(classes)}
                 onClose={handleClose}
-                onExit={callbacks.onExit}
-                onExiting={callbacks.onExiting}
-                onEnter={callbacks.onEnter}
-                onEntering={callbacks.onEntering}
-                // order matters. first callbacks.onEntered to set entered: true,
-                // then handleEntered to check if there's a request for closing
-                onEntered={createChainedFunction([callbacks.onEntered, handleEntered])}
             >
                 {/* @ts-ignore */}
                 {snackContent || (
@@ -221,7 +218,7 @@ const SnackbarItem: React.FC<SnackbarItemProps> = ({ classes, ...props }) => {
                             { [classes.lessPadding]: !hideIconVariant && icon },
                             classes[`variant${capitalise(variant)}` as VariantClassKey],
                             otherClassName,
-                            singleClassName
+                            singleClassName,
                         )}
                     >
                         <div id={ariaAttributes['aria-describedby']} className={classes.message}>

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
@@ -16,7 +16,7 @@ class App extends Component {
 
     render() {
         return (
-            <Fragment>
+            <>
                 <Notifier />
                 <Typography variant="h4" gutterBottom>
                     Notistack mobx example
@@ -24,10 +24,9 @@ class App extends Component {
                 <Button variant="contained" onClick={this.handleClick}>
                     Display snackbar
                 </Button>
-            </Fragment>
+            </>
         );
     }
 }
-
 
 export default inject('store')(observer(App));

@@ -11,13 +11,13 @@ const styles = (theme: Theme) => createStyles({
             flexGrow: 'initial',
             minWidth: 288,
         },
-    }
+    },
 });
 
 export interface SnackbarContent extends WithStyles<typeof styles>, React.HTMLAttributes<HTMLDivElement> { }
 
 const SnackbarContent: React.FC<SnackbarContent> = forwardRef<HTMLDivElement, SnackbarContent>(({ classes, className, ...props }, ref) => (
-    <div ref={ref} className={clsx(classes.root, className)}  {...props} />
-))
+    <div ref={ref} className={clsx(classes.root, className)} {...props} />
+));
 
 export default withStyles(styles)(SnackbarContent);

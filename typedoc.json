@@ -28,7 +28,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 51,
+							"line": 49,
 							"character": 11
 						}
 					],
@@ -51,7 +51,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 55,
+							"line": 53,
 							"character": 9
 						}
 					],
@@ -74,7 +74,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 67,
+							"line": 65,
 							"character": 8
 						}
 					],
@@ -97,7 +97,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 59,
+							"line": 57,
 							"character": 11
 						}
 					],
@@ -120,7 +120,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 63,
+							"line": 61,
 							"character": 11
 						}
 					],
@@ -146,7 +146,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 47,
+					"line": 45,
 					"character": 28
 				}
 			]
@@ -183,7 +183,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 200,
+							"line": 198,
 							"character": 10
 						}
 					],
@@ -220,7 +220,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 195,
+							"line": 193,
 							"character": 11
 						}
 					],
@@ -256,7 +256,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 211,
+							"line": 209,
 							"character": 7
 						}
 					],
@@ -287,7 +287,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 216,
+							"line": 214,
 							"character": 11
 						}
 					],
@@ -330,7 +330,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 190,
+							"line": 188,
 							"character": 20
 						}
 					],
@@ -378,7 +378,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 185,
+							"line": 183,
 							"character": 11
 						}
 					],
@@ -411,7 +411,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 206,
+					"line": 204,
 					"character": 30
 				}
 			],
@@ -443,7 +443,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 262,
+							"line": 260,
 							"character": 17
 						}
 					],
@@ -492,7 +492,7 @@
 							"sources": [
 								{
 									"fileName": "src/index.d.ts",
-									"line": 262,
+									"line": 260,
 									"character": 18
 								}
 							]
@@ -510,7 +510,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 261,
+							"line": 259,
 							"character": 19
 						}
 					],
@@ -574,7 +574,7 @@
 							"sources": [
 								{
 									"fileName": "src/index.d.ts",
-									"line": 261,
+									"line": 259,
 									"character": 20
 								}
 							]
@@ -595,7 +595,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 260,
+					"line": 258,
 					"character": 32
 				}
 			]
@@ -632,7 +632,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 200,
+							"line": 198,
 							"character": 10
 						}
 					],
@@ -664,7 +664,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 195,
+							"line": 193,
 							"character": 11
 						}
 					],
@@ -695,7 +695,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 190,
+							"line": 188,
 							"character": 20
 						}
 					],
@@ -738,7 +738,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 185,
+							"line": 183,
 							"character": 11
 						}
 					],
@@ -764,7 +764,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 179,
+					"line": 177,
 					"character": 28
 				}
 			],
@@ -782,7 +782,7 @@
 						"sources": [
 							{
 								"fileName": "src/index.d.ts",
-								"line": 179,
+								"line": 177,
 								"character": 36
 							}
 						]
@@ -801,7 +801,7 @@
 						"sources": [
 							{
 								"fileName": "src/index.d.ts",
-								"line": 179,
+								"line": 177,
 								"character": 68
 							}
 						]
@@ -841,7 +841,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 44,
+							"line": 42,
 							"character": 14
 						}
 					],
@@ -874,7 +874,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 43,
+							"line": 41,
 							"character": 12
 						}
 					],
@@ -906,7 +906,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 42,
+					"line": 40,
 					"character": 31
 				}
 			]
@@ -942,7 +942,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 155,
+							"line": 153,
 							"character": 23
 						}
 					],
@@ -951,6 +951,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
+								"id": 31,
 								"name": "TransitionProps"
 							}
 						],
@@ -972,7 +973,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 173,
+							"line": 171,
 							"character": 19
 						}
 					],
@@ -1003,7 +1004,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 120,
+							"line": 118,
 							"character": 16
 						}
 					],
@@ -1028,7 +1029,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 137,
+							"line": 135,
 							"character": 18
 						}
 					],
@@ -1058,7 +1059,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 128,
+							"line": 126,
 							"character": 20
 						}
 					],
@@ -1088,7 +1089,7 @@
 					"sources": [
 						{
 							"fileName": "node_modules/@material-ui/core/index.d.ts",
-							"line": 24,
+							"line": 25,
 							"character": 13
 						}
 					],
@@ -1126,7 +1127,7 @@
 					"sources": [
 						{
 							"fileName": "node_modules/@material-ui/styles/withStyles/withStyles.d.ts",
-							"line": 115,
+							"line": 119,
 							"character": 9
 						}
 					],
@@ -1180,7 +1181,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 142,
+							"line": 140,
 							"character": 29
 						}
 					],
@@ -1214,7 +1215,7 @@
 					"sources": [
 						{
 							"fileName": "node_modules/@material-ui/styles/withStyles/withStyles.d.ts",
-							"line": 116,
+							"line": 120,
 							"character": 10
 						}
 					],
@@ -1246,7 +1247,7 @@
 					"sources": [
 						{
 							"fileName": "node_modules/@material-ui/core/index.d.ts",
-							"line": 25,
+							"line": 26,
 							"character": 7
 						}
 					],
@@ -1279,7 +1280,7 @@
 										"sources": [
 											{
 												"fileName": "node_modules/@material-ui/core/index.d.ts",
-												"line": 25,
+												"line": 26,
 												"character": 25
 											}
 										],
@@ -1301,7 +1302,7 @@
 								"sources": [
 									{
 										"fileName": "node_modules/@material-ui/core/index.d.ts",
-										"line": 25,
+										"line": 26,
 										"character": 19
 									}
 								]
@@ -1349,7 +1350,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 150,
+							"line": 148,
 							"character": 22
 						}
 					],
@@ -1379,7 +1380,7 @@
 					"sources": [
 						{
 							"fileName": "node_modules/@material-ui/core/index.d.ts",
-							"line": 26,
+							"line": 27,
 							"character": 9
 						}
 					],
@@ -1414,7 +1415,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 169,
+							"line": 167,
 							"character": 22
 						}
 					],
@@ -1448,7 +1449,7 @@
 											"sources": [
 												{
 													"fileName": "src/index.d.ts",
-													"line": 169,
+													"line": 167,
 													"character": 42
 												}
 											],
@@ -1478,7 +1479,7 @@
 											"sources": [
 												{
 													"fileName": "src/index.d.ts",
-													"line": 169,
+													"line": 167,
 													"character": 58
 												}
 											],
@@ -1508,7 +1509,7 @@
 											"sources": [
 												{
 													"fileName": "src/index.d.ts",
-													"line": 169,
+													"line": 167,
 													"character": 73
 												}
 											],
@@ -1541,7 +1542,7 @@
 									"sources": [
 										{
 											"fileName": "src/index.d.ts",
-											"line": 169,
+											"line": 167,
 											"character": 33
 										}
 									]
@@ -1575,7 +1576,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 115,
+					"line": 113,
 					"character": 30
 				}
 			],
@@ -1657,7 +1658,7 @@
 										"sources": [
 											{
 												"fileName": "node_modules/@material-ui/core/index.d.ts",
-												"line": 24,
+												"line": 25,
 												"character": 13
 											}
 										],
@@ -1687,7 +1688,7 @@
 										"sources": [
 											{
 												"fileName": "node_modules/@material-ui/core/index.d.ts",
-												"line": 25,
+												"line": 26,
 												"character": 7
 											}
 										],
@@ -1720,7 +1721,7 @@
 															"sources": [
 																{
 																	"fileName": "node_modules/@material-ui/core/index.d.ts",
-																	"line": 25,
+																	"line": 26,
 																	"character": 25
 																}
 															],
@@ -1742,7 +1743,7 @@
 													"sources": [
 														{
 															"fileName": "node_modules/@material-ui/core/index.d.ts",
-															"line": 25,
+															"line": 26,
 															"character": 19
 														}
 													]
@@ -1776,7 +1777,7 @@
 										"sources": [
 											{
 												"fileName": "node_modules/@material-ui/core/index.d.ts",
-												"line": 26,
+												"line": 27,
 												"character": 9
 											}
 										],
@@ -1837,7 +1838,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 200,
+							"line": 198,
 							"character": 10
 						}
 					],
@@ -1866,7 +1867,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 228,
+							"line": 226,
 							"character": 12
 						}
 					],
@@ -1897,12 +1898,12 @@
 						"isOptional": true
 					},
 					"comment": {
-						"shortText": "Override or extend the styles applied to the container component or Snackbars."
+						"shortText": "Override or extend the styles applied to the root component or Snackbars."
 					},
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 251,
+							"line": 249,
 							"character": 11
 						}
 					],
@@ -1947,7 +1948,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 195,
+							"line": 193,
 							"character": 11
 						}
 					],
@@ -1983,7 +1984,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 233,
+							"line": 231,
 							"character": 9
 						}
 					],
@@ -2020,7 +2021,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 247,
+							"line": 245,
 							"character": 11
 						}
 					],
@@ -2050,7 +2051,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 243,
+							"line": 241,
 							"character": 19
 						}
 					],
@@ -2087,7 +2088,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 255,
+							"line": 253,
 							"character": 15
 						}
 					],
@@ -2124,7 +2125,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 238,
+							"line": 236,
 							"character": 12
 						}
 					],
@@ -2163,7 +2164,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 190,
+							"line": 188,
 							"character": 20
 						}
 					],
@@ -2211,7 +2212,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 185,
+							"line": 183,
 							"character": 11
 						}
 					],
@@ -2249,7 +2250,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 223,
+					"line": 221,
 					"character": 38
 				}
 			],
@@ -2302,7 +2303,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 85,
+							"line": 83,
 							"character": 11
 						}
 					],
@@ -2326,7 +2327,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 89,
+							"line": 87,
 							"character": 11
 						}
 					],
@@ -2350,7 +2351,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 97,
+							"line": 95,
 							"character": 13
 						}
 					],
@@ -2374,7 +2375,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 93,
+							"line": 91,
 							"character": 14
 						}
 					],
@@ -2398,7 +2399,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 101,
+							"line": 99,
 							"character": 10
 						}
 					],
@@ -2422,7 +2423,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 109,
+							"line": 107,
 							"character": 12
 						}
 					],
@@ -2446,7 +2447,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 105,
+							"line": 103,
 							"character": 13
 						}
 					],
@@ -2475,7 +2476,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 73,
+					"line": 71,
 					"character": 39
 				}
 			]
@@ -2506,7 +2507,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 12,
+					"line": 11,
 					"character": 24
 				}
 			],
@@ -2540,7 +2541,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 18,
+					"line": 17,
 					"character": 23
 				}
 			],
@@ -2577,7 +2578,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 40,
+					"line": 38,
 					"character": 28
 				}
 			],
@@ -2612,7 +2613,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 30,
+					"line": 28,
 					"character": 29
 				}
 			],
@@ -2681,7 +2682,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 14,
+					"line": 13,
 					"character": 11
 				}
 			],
@@ -2766,7 +2767,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 13,
+					"line": 12,
 					"character": 9
 				}
 			],
@@ -2846,7 +2847,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 10,
+					"line": 9,
 					"character": 22
 				}
 			],
@@ -2946,7 +2947,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 11,
+					"line": 10,
 					"character": 22
 				}
 			],
@@ -3018,7 +3019,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 21,
+					"line": 20,
 					"character": 26
 				}
 			],
@@ -3073,7 +3074,7 @@
 							"sources": [
 								{
 									"fileName": "src/index.d.ts",
-									"line": 21,
+									"line": 20,
 									"character": 46
 								}
 							]
@@ -3093,7 +3094,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 22,
+					"line": 21,
 					"character": 27
 				}
 			],
@@ -3162,7 +3163,7 @@
 							"sources": [
 								{
 									"fileName": "src/index.d.ts",
-									"line": 22,
+									"line": 21,
 									"character": 47
 								}
 							]
@@ -3182,7 +3183,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 16,
+					"line": 15,
 					"character": 23
 				}
 			],
@@ -3211,7 +3212,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 20,
+					"line": 19,
 					"character": 27
 				}
 			],
@@ -3240,7 +3241,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 26,
+					"line": 24,
 					"character": 34
 				}
 			],
@@ -3331,7 +3332,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 26,
+							"line": 24,
 							"character": 36
 						}
 					]
@@ -3349,7 +3350,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 27,
+					"line": 25,
 					"character": 34
 				}
 			],
@@ -3423,7 +3424,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 27,
+							"line": 25,
 							"character": 36
 						}
 					]
@@ -3441,7 +3442,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 28,
+					"line": 26,
 					"character": 29
 				}
 			],
@@ -3502,7 +3503,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.d.ts",
-							"line": 28,
+							"line": 26,
 							"character": 31
 						}
 					]
@@ -3520,7 +3521,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 39,
+					"line": 37,
 					"character": 27
 				}
 			],
@@ -3557,7 +3558,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 17,
+					"line": 16,
 					"character": 23
 				}
 			],
@@ -3598,7 +3599,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 272,
+					"line": 269,
 					"character": 29
 				}
 			],
@@ -3620,7 +3621,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 258,
+					"line": 256,
 					"character": 29
 				}
 			],
@@ -3663,7 +3664,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 269,
+					"line": 266,
 					"character": 27
 				}
 			]
@@ -3783,7 +3784,7 @@
 											"sources": [
 												{
 													"fileName": "src/index.d.ts",
-													"line": 266,
+													"line": 264,
 													"character": 77
 												}
 											],
@@ -3816,7 +3817,7 @@
 									"sources": [
 										{
 											"fileName": "src/index.d.ts",
-											"line": 266,
+											"line": 264,
 											"character": 58
 										}
 									]
@@ -3829,7 +3830,7 @@
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
-					"line": 265,
+					"line": 263,
 					"character": 28
 				}
 			]

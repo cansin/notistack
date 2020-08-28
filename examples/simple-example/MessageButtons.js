@@ -39,9 +39,8 @@ const buttons = [
     { variant: 'info', message: 'For your info...' },
 ];
 
-
 class MessageButtons extends Component {
-    handleClick = button => () => {
+    handleClick = (button) => () => {
         // Avoid material-ui warnings. more info: https://material-ui.com/style/typography/#migration-to-typography-v2
         // eslint-disable-next-line no-underscore-dangle
         window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
@@ -74,7 +73,7 @@ class MessageButtons extends Component {
         const { classes } = this.props;
         return (
             <Paper className={classes.root}>
-                {buttons.map(button => (
+                {buttons.map((button) => (
                     <Button
                         key={button.variant}
                         variant="contained"

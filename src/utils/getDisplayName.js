@@ -22,14 +22,14 @@ const getWrappedName = (outerType, innerType, wrapperName) => {
     );
 };
 
-/** 
+/**
  * From react-is
  * @link https://github.com/facebook/react/blob/master/packages/shared/ReactSymbols.js
  */
 const ForwardRef = () => {
     const symbolFor = typeof Symbol === 'function' && Symbol.for;
-    return symbolFor ? symbolFor('react.forward_ref') : 0xead0
-}
+    return symbolFor ? symbolFor('react.forward_ref') : 0xead0;
+};
 
 /**
  * https://github.com/facebook/react/blob/769b1f270e1251d9dbdce0fcbd9e92e502d059b8/packages/shared/getComponentName.js

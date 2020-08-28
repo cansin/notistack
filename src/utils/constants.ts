@@ -4,8 +4,8 @@ import { SnackbarItemProps } from '../SnackbarItem';
 import { Snack } from '../SnackbarProvider';
 
 export const allClasses: {
-    mui: Record<SnackbarClassKey, {}>;
-    container: Record<ContainerClassKey, {}>;
+    mui: Record<SnackbarClassKey, Record<string, unknown>>;
+    root: Record<ContainerClassKey, Record<string, unknown>>;
 } = {
     mui: {
         root: {},
@@ -16,7 +16,7 @@ export const allClasses: {
         anchorOriginTopLeft: {},
         anchorOriginBottomLeft: {},
     },
-    container: {
+    root: {
         containerRoot: {},
         containerAnchorOriginTopCenter: {},
         containerAnchorOriginBottomCenter: {},
@@ -45,9 +45,10 @@ export const originKeyExtractor = (anchor: Snack['anchorOrigin']): string => (
 /**
  * Omit SnackbarContainer class keys that are not needed for SnackbarItem
  */
+// @ts-ignore
 export const omitContainerKeys = (classes: SnackbarProviderProps['classes']): SnackbarItemProps['classes'] => (
     // @ts-ignore
-    Object.keys(classes).filter(key => !allClasses.container[key]).reduce((obj, key) => ({ ...obj, [key]: classes[key] }), {})
+    Object.keys(classes).filter((key) => !allClasses.root[key]).reduce((obj, key) => ({ ...obj, [key]: classes[key] }), {})
 );
 
 export const DEFAULTS = {

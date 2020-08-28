@@ -178,7 +178,7 @@ const theme = createMuiTheme({
 ### `notistack@0.9.3`
 ###### Oct 6, 2019
 * **@FredyC**: Prevent snackbar processing on `SnackbarProvider` unmount [#173](https://github.com/iamhosseindhv/notistack/pull/173)
-* **@nick-cromwell**: Allow customising snackbar container styles [#172](https://github.com/iamhosseindhv/notistack/pull/172)
+* **@nick-cromwell**: Allow customising snackbar root styles [#172](https://github.com/iamhosseindhv/notistack/pull/172)
 
 <br />
 

@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { SNACKBAR_INDENTS } from './utils/constants';
 import { SnackbarProviderProps } from '.';
 
-const useStyle = makeStyles(theme => ({
+const useStyle = makeStyles((theme) => ({
     root: {
         boxSizing: 'border-box',
         display: 'flex',
@@ -45,7 +45,6 @@ const useStyle = makeStyles(theme => ({
         },
     },
 }));
-
 
 interface SnackbarContainerProps {
     children: JSX.Element | JSX.Element[];

@@ -4,8 +4,7 @@
 import * as React from 'react';
 import { SnackbarClassKey } from '@material-ui/core/Snackbar';
 import { ClickAwayListenerProps } from '@material-ui/core/ClickAwayListener';
-import { TransitionProps } from '@material-ui/core/transitions/transition';
-import { StandardProps } from '@material-ui/core';
+import { StandardProps, TransitionProps } from '@material-ui/core';
 
 export type OptionalBy<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, K>>
 export type RequiredBy<T, K extends keyof T> = Omit<T, K> & Required<Pick<T, K>>
@@ -20,7 +19,6 @@ export type CloseReason = 'timeout' | 'clickaway' | 'maxsnack' | 'instructed';
 export type SnackbarMessage = string | React.ReactNode;
 export type SnackbarAction = React.ReactNode | ((key: SnackbarKey) => React.ReactNode);
 export type SnackbarContent = React.ReactNode | ((key: SnackbarKey, message: SnackbarMessage) => React.ReactNode);
-
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type TransitionCloseHandler = (event: React.SyntheticEvent<any> | null, reason: CloseReason, key?: SnackbarKey) => void;
@@ -246,7 +244,7 @@ export interface SnackbarProviderProps extends SharedProps {
      */
     domRoot?: HTMLElement;
     /**
-     * Override or extend the styles applied to the container component or Snackbars.
+     * Override or extend the styles applied to the root component or Snackbars.
      */
     classes?: Partial<ClassNameMap<CombinedClassKey>>;
     /**
@@ -264,7 +262,6 @@ export interface ProviderContext {
 
 export function withSnackbar<P extends ProviderContext>(component: React.ComponentType<P>):
     React.ComponentClass<Omit<P, keyof ProviderContext>> & { WrappedComponent: React.ComponentType<P> };
-
 
 export function useSnackbar(): ProviderContext;
 
