@@ -138,6 +138,12 @@ const SnackbarItem: React.FC<SnackbarItemProps> = ({ classes, ...props }) => {
         dense,
         TransitionComponent = Slide,
         TransitionProps: otherTransitionProps = {},
+        onEnter,
+        onEntering,
+        onEntered,
+        onExit,
+        onExiting,
+        onExited,
         ...other
     } = props;
 
@@ -168,14 +174,14 @@ const SnackbarItem: React.FC<SnackbarItemProps> = ({ classes, ...props }) => {
         direction: getTransitionDirection(anchorOrigin),
         ...otherTransitionProps,
         ...singleTransitionProps,
-        onExited: handleExitedScreen,
-        onExit: callbacks.onExit,
-        onExiting: callbacks.onExiting,
         onEnter: callbacks.onEnter,
         onEntering: callbacks.onEntering,
         // order matters. first callbacks.onEntered to set entered: true,
         // then handleEntered to check if there's a request for closing
         onEntered: createChainedFunction([callbacks.onEntered, handleEntered]),
+        onExit: callbacks.onExit,
+        onExiting: callbacks.onExiting,
+        onExited: handleExitedScreen,
     };
 
     let finalAction = singleAction || action;
