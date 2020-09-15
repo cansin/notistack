@@ -6,15 +6,18 @@
     "module": "dist/notistack.esm.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
-    "contributors": [{
-        "name": "Hossein Dehnokhalaji",
-        "email": "hossein.dehnavi98@yahoo.com",
-        "url": "https://www.iamhosseindhv.com/"
-    },{
-        "name": "Cansin Yildiz",
-        "email": "cansin.yildiz@gmail.com",
-        "url": "https://github.com/cansin"
-    }],
+    "contributors": [
+        {
+            "name": "Hossein Dehnokhalaji",
+            "email": "hossein.dehnavi98@yahoo.com",
+            "url": "https://www.iamhosseindhv.com/"
+        },
+        {
+            "name": "Cansin Yildiz",
+            "email": "cansin.yildiz@gmail.com",
+            "url": "https://github.com/cansin"
+        }
+    ],
     "homepage": "https://github.com/cansin/notistack",
     "repository": {
         "url": "git+https://github.com/cansin/notistack.git",
@@ -49,7 +52,7 @@
         "eslint-plugin-import": "~2.22.0",
         "eslint-plugin-jsx-a11y": "^6.3.1",
         "eslint-plugin-react": "^7.20.6",
-        "eslint-plugin-react-hooks": "^4.1.0",
+        "eslint-plugin-react-hooks": "^4.1.2",
         "react": "^16.8.0",
         "react-dom": "^16.8.0",
         "rimraf": "^3.0.2",
